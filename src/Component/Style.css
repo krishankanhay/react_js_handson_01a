@@ -1,0 +1,66 @@
+
+
+
+body{
+    background-image: linear-gradient(#a9d1e0, #f4afba, #fdeff2);
+}
+h1{
+    text-align: center;
+    text-shadow: 4px 4px 3px  #63fbfd;
+}
+p{
+    color: brown;
+}
+
+
+.see{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.see_in{
+    height: 30px;
+    width: 265px;
+    background-color: #a9d1e0;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    border-radius: 20px;
+    border: solid 1.5px black;
+}
+.see_in:hover{
+    background-color: #63fbfd;
+    cursor: pointer;
+}
+.comp1{
+    height: 180px;
+    width: 380px;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #63fbfd;
+}
+.comp2{
+    height: 180px;
+    width: 380px;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #d380d3;
+}
+
+.component{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 340px;
+}
+.hello{
+    height: 180px;
+    width: 386px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5b6c0;
+}
