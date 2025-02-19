@@ -14,7 +14,6 @@ class DisplayCompo extends Component {
     render() {
         return (
             <>
-                <h1>Styling using Functional and Class Component333</h1>
                 <h1>Styling using Functional and Class Component</h1>
                 <div className='see'>
                     <p className='see_in' onClick={() => this.setState({ function_count: !this.state.function_count })}>To see styling in functional component</p>
